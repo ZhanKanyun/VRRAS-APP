@@ -1,0 +1,6 @@
+﻿//开发配置，每个开发者可以根据自己的情况设置
+//为了避免覆盖他人设置，此设置不会自动复制到输出目录，需要手动拷贝
+{
+  "AppTestPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.APP.WPF\\Web\\index.html",
+
+}

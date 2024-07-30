@@ -1,0 +1,372 @@
+{
+  "format": 1,
+  "restore": {
+    "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.APP.WPF\\HYT.APP.WPF.csproj": {}
+  },
+  "projects": {
+    "I:\\GitRepository\\NET\\2302-HaiYaTe\\CL.Common\\CL.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\GitRepository\\NET\\2302-HaiYaTe\\CL.Common\\CL.Common.csproj",
+        "projectName": "CL.Common",
+        "projectPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\CL.Common\\CL.Common.csproj",
+        "packagesPath": "C:\\Users\\KT\\.nuget\\packages\\",
+        "outputPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\CL.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\03.develop\\Visual Studio\\2022\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.APP.WPF\\HYT.APP.WPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.APP.WPF\\HYT.APP.WPF.csproj",
+        "projectName": "Code",
+        "projectPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.APP.WPF\\HYT.APP.WPF.csproj",
+        "packagesPath": "C:\\Users\\KT\\.nuget\\packages\\",
+        "outputPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.APP.WPF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\03.develop\\Visual Studio\\2022\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "I:\\GitRepository\\NET\\2302-HaiYaTe\\CL.Common\\CL.Common.csproj": {
+                "projectPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\CL.Common\\CL.Common.csproj"
+              },
+              "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.DataAccess\\HYT.DataAccess.csproj": {
+                "projectPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.DataAccess\\HYT.DataAccess.csproj"
+              },
+              "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.MidiManager\\HYT.MidiManager.csproj": {
+                "projectPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.MidiManager\\HYT.MidiManager.csproj"
+              },
+              "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.Unity\\HYT.Unity.csproj": {
+                "projectPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.Unity\\HYT.Unity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.1587.40, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.DataAccess\\HYT.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.DataAccess\\HYT.DataAccess.csproj",
+        "projectName": "HYT.DataAccess",
+        "projectPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.DataAccess\\HYT.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\KT\\.nuget\\packages\\",
+        "outputPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\03.develop\\Visual Studio\\2022\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.4.59, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.MidiManager\\HYT.MidiManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.MidiManager\\HYT.MidiManager.csproj",
+        "projectName": "HYT.MidiManager",
+        "projectPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.MidiManager\\HYT.MidiManager.csproj",
+        "packagesPath": "C:\\Users\\KT\\.nuget\\packages\\",
+        "outputPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.MidiManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\03.develop\\Visual Studio\\2022\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.Unity\\HYT.Unity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.Unity\\HYT.Unity.csproj",
+        "projectName": "HYT.Unity",
+        "projectPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.Unity\\HYT.Unity.csproj",
+        "packagesPath": "C:\\Users\\KT\\.nuget\\packages\\",
+        "outputPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.Unity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\03.develop\\Visual Studio\\2022\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\KT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "HPSocket.Net": {
+              "target": "Package",
+              "version": "[5.8.8.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

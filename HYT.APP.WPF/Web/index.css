@@ -1,0 +1,237 @@
+/* ElementUI 的样式直接改它的样式 */
+/* Vue 组件也会应用主页中的样式， Vue 组件中的样式互用*/
+:root {
+    --bt-color-nav: #181f47;
+    --bt-color-back: #eaedf3;
+    --bt-color-dialog-header: #EBF1FE;
+    --bt-color-mask: #00000050;
+    --bt-color-font1: #acacac;
+}
+
+/* 应用主页 */
+#app {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.myicon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
+
+.app-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* flex-grow: 1; */
+    height: calc(100% - 70px);
+    background-color: var(--bt-color-back);
+    overflow-y: hidden;
+
+}
+
+.app-nav {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: var(--bt-color-nav);
+    justify-content: flex-end;
+
+    z-index: 88;
+}
+
+.patientCurrent {
+    color: #a2a3a5;
+}
+
+/* 自定义弹窗样式 */
+.bt-dialog-wrapper {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: var(--bt-color-mask);
+    z-index: 99;
+}
+
+.bt-dialog {
+    position: relative;
+    width: 950px;
+    min-height: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 0px darkgrey;
+}
+
+.bt-dialog .header {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: var(--bt-color-dialog-header);
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    /* box-shadow: 0px 0px 5px 0px darkgrey; */
+}
+
+.bt-dialog .header-close {
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    width: 24px;
+    height: 24px;
+    border-radius: 14px;
+    text-align: center;
+    line-height: 24px;
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bt-dialog .header-close:hover {
+    background-color: rgba(255, 0, 0, 0.9);
+}
+
+.bt-dialog-scorll {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.bt-dialog-content {
+    position: relative;
+    width: 100%;
+}
+
+/* 页面 */
+.page {
+    position: relative;
+    background-color: #ebf0fc;
+    /* height: 100%; */
+}
+
+.page-head {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    color: var(--bt-color-font1);
+    font-size: 24px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    flex-shrink: 0;
+}
+
+.page-content {
+    position: relative;
+    flex-grow: 1;
+    /* height: calc(100% - 40px); */
+    width: 100%;
+    background: #EBEEF5;
+
+    /* 为了平板可以正常使用 */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.page-content-wrap {
+    width: 100%;
+
+}
+
+/* 面板 */
+.bt-panel {
+    position: relative;
+    width: calc(100% - 80px);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+}
+
+.bt-panel-tit {
+    position: relative;
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+    width: calc(100% - 60px);
+    font-weight: 500;
+    font-size: 18px;
+    color: #666666;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bt-panel-tit-text {
+    position: relative;
+    width: calc(100% - 60px);
+    font-weight: 500;
+    font-size: 18px;
+    color: #666666;
+    margin-left: 10px;
+}
+
+.bt-panel-tit-text::before {
+    position: absolute;
+    display: block;
+    content: "";
+    left: -16px;
+    top: 3px;
+    width: 6px;
+    height: 20px;
+    background-color: #A9E4EF;
+    border-radius: 31px;
+}
+
+.bt-panel-tit-opr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bt-panel-content {
+    position: relative;
+    min-height: 100px;
+    width: calc(100% - 60px);
+}
+
+.bt-hint{
+    color:#666;
+}
+
+
+/* 块---边框 */
+.protyle-wysiwyg>div[data-node-id] {
+    border: dashed 1px rgba(128, 128, 128, 0.2);
+    font-weight: bold;
+}
+
+.alphaversion {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+
+    text-align: center;
+    bottom: 0;
+    color: white;
+    z-index: 888;
+    pointer-events: none;
+}

@@ -1,0 +1,12 @@
+I:\GitRepository\NET\2302-HaiYaTe\HYT.DataAccess\bin\Debug\net6.0\HYT.DataAccess.deps.json
+I:\GitRepository\NET\2302-HaiYaTe\HYT.DataAccess\bin\Debug\net6.0\HYT.DataAccess.dll
+I:\GitRepository\NET\2302-HaiYaTe\HYT.DataAccess\bin\Debug\net6.0\HYT.DataAccess.pdb
+I:\GitRepository\NET\2302-HaiYaTe\HYT.DataAccess\obj\Debug\net6.0\HYT.DataAccess.csproj.AssemblyReference.cache
+I:\GitRepository\NET\2302-HaiYaTe\HYT.DataAccess\obj\Debug\net6.0\HYT.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+I:\GitRepository\NET\2302-HaiYaTe\HYT.DataAccess\obj\Debug\net6.0\HYT.DataAccess.AssemblyInfoInputs.cache
+I:\GitRepository\NET\2302-HaiYaTe\HYT.DataAccess\obj\Debug\net6.0\HYT.DataAccess.AssemblyInfo.cs
+I:\GitRepository\NET\2302-HaiYaTe\HYT.DataAccess\obj\Debug\net6.0\HYT.DataAccess.csproj.CoreCompileInputs.cache
+I:\GitRepository\NET\2302-HaiYaTe\HYT.DataAccess\obj\Debug\net6.0\HYT.DataAccess.dll
+I:\GitRepository\NET\2302-HaiYaTe\HYT.DataAccess\obj\Debug\net6.0\refint\HYT.DataAccess.dll
+I:\GitRepository\NET\2302-HaiYaTe\HYT.DataAccess\obj\Debug\net6.0\HYT.DataAccess.pdb
+I:\GitRepository\NET\2302-HaiYaTe\HYT.DataAccess\obj\Debug\net6.0\ref\HYT.DataAccess.dll

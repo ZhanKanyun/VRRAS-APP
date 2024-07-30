@@ -1,0 +1,15 @@
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\bin\Debug\net6.0\HYT.Test.Console.exe
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\bin\Debug\net6.0\HYT.Test.Console.deps.json
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\bin\Debug\net6.0\HYT.Test.Console.runtimeconfig.json
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\bin\Debug\net6.0\HYT.Test.Console.dll
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\bin\Debug\net6.0\HYT.Test.Console.pdb
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\obj\Debug\net6.0\HYT.Test.Console.csproj.AssemblyReference.cache
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\obj\Debug\net6.0\HYT.Test.Console.GeneratedMSBuildEditorConfig.editorconfig
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\obj\Debug\net6.0\HYT.Test.Console.AssemblyInfoInputs.cache
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\obj\Debug\net6.0\HYT.Test.Console.AssemblyInfo.cs
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\obj\Debug\net6.0\HYT.Test.Console.csproj.CoreCompileInputs.cache
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\obj\Debug\net6.0\HYT.Test.Console.dll
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\obj\Debug\net6.0\refint\HYT.Test.Console.dll
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\obj\Debug\net6.0\HYT.Test.Console.pdb
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\obj\Debug\net6.0\HYT.Test.Console.genruntimeconfig.cache
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.Console\obj\Debug\net6.0\ref\HYT.Test.Console.dll

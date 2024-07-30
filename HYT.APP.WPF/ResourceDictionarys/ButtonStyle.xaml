@@ -1,0 +1,204 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="HYT.APP.WPF">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Color.xaml"/>
+        <ResourceDictionary Source="Path.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    <!--帮助-->
+    <Style x:Key="App.Button.Help" TargetType="UserControl" >
+        <Setter Property="Background" Value="White" />
+        <Setter Property="Width" Value="70" />
+        <Setter Property="Height" Value="70" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="UserControl">
+                    <Grid Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Background="Transparent">
+                        <Viewbox Margin="10">
+                            <Path x:Name="path" Style="{DynamicResource App.Path.Help}" Fill="{TemplateBinding Background}" />
+                        </Viewbox>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="path" Property="Style" Value="{DynamicResource App.Path.Help.Selected}" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <!--暂停-->
+    <Style x:Key="App.Button.Pause" TargetType="UserControl" >
+        <Setter Property="Background" Value="White" />
+        <Setter Property="Width" Value="70" />
+        <Setter Property="Height" Value="70" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="UserControl">
+                    <Grid Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Background="Transparent">
+                        <Viewbox Margin="10">
+                            <Path Width="33" Height="33" x:Name="path" Style="{DynamicResource App.Path.Pause}" Fill="{TemplateBinding Background}" />
+                        </Viewbox>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="path" Property="Style" Value="{DynamicResource App.Path.Pause.Selected}" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!--退出2-->
+    <Style x:Key="App.Button.Exit2" TargetType="UserControl" >
+        <Setter Property="Background" Value="White" />
+        <Setter Property="Width" Value="70" />
+        <Setter Property="Height" Value="70" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="UserControl">
+                    <Grid Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Background="Transparent">
+                        <Viewbox Margin="10">
+                            <Path Width="33" Height="33" x:Name="path" Style="{DynamicResource App.Path.Exit}" Fill="{TemplateBinding Background}" />
+                        </Viewbox>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="path" Property="Style" Value="{DynamicResource App.Path.Exit.Selected}" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <!--音量-->
+    <Style x:Key="App.Button.Volumn" TargetType="UserControl">
+            <Setter Property="Background" Value="White" />
+            <Setter Property="Width" Value="70" />
+            <Setter Property="Height" Value="70" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="UserControl">
+                        <Grid Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Background="Transparent">
+                        <Viewbox Margin="10">
+                            <Path Width="1024" Height="1024" x:Name="path" Style="{DynamicResource App.Path.Volumn}" Fill="{TemplateBinding Background}" />
+                            </Viewbox>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="path" Property="Style" Value="{DynamicResource App.Path.Volumn.Selected}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!--重做-->
+    <Style x:Key="App.Button.Redo" TargetType="UserControl" >
+        <Setter Property="Background" Value="{DynamicResource App.Brush.Base}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="UserControl">
+                    <StackPanel >
+                        <Grid Width="200" Height="200" Background="Transparent">
+                            <Viewbox>
+                                <Path x:Name="path" Style="{DynamicResource App.Path.Redo}" Fill="{TemplateBinding Background}" />
+                            </Viewbox>
+                        </Grid>
+                        <TextBlock Text="重做" FontSize="54" Margin="0,45,0,0" HorizontalAlignment="Center" Foreground="{DynamicResource App.Brush.Deep}"  />
+                    </StackPanel>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="path" Property="Style" Value="{DynamicResource App.Path.Redo.Selected}" />
+                            <Setter TargetName="path" Property="Fill" Value="{DynamicResource App.Brush.Deep}" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    
+    <!--继续-->
+    <Style x:Key="App.Button.Continue" TargetType="UserControl" >
+        <Setter Property="Background" Value="{DynamicResource App.Brush.Base}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="UserControl">
+                    <StackPanel >
+                        <Grid Width="200" Height="200" Background="Transparent">
+                            <Viewbox>
+                                <Path x:Name="path" Style="{DynamicResource App.Path.Continue}" Fill="{TemplateBinding Background}" />
+                            </Viewbox>
+                        </Grid>
+                        <TextBlock Text="继续" FontSize="54" Margin="0,45,0,0" HorizontalAlignment="Center" Foreground="{DynamicResource App.Brush.Deep}"  />
+                    </StackPanel>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="path" Property="Style" Value="{DynamicResource App.Path.Continue.Selected}" />
+                            <Setter TargetName="path" Property="Fill" Value="{DynamicResource App.Brush.Deep}" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <!--退出-->
+    <Style x:Key="App.Button.Exit" TargetType="UserControl" >
+        <Setter Property="Background" Value="{DynamicResource App.Brush.Base}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="UserControl">
+                    <StackPanel >
+                        <Grid Width="200" Height="200" Background="Transparent">
+                            <Viewbox>
+                                <Path x:Name="path" Style="{DynamicResource App.Path.Exit}" Fill="{TemplateBinding Background}" />
+                            </Viewbox>
+                        </Grid>
+                        <TextBlock Text="取消训练" FontSize="54" Margin="0,45,0,0" HorizontalAlignment="Center" Foreground="{DynamicResource App.Brush.Deep}" />
+                    </StackPanel>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="path" Property="Style" Value="{DynamicResource App.Path.Exit.Selected}" />
+                            <Setter TargetName="path" Property="Fill" Value="{DynamicResource App.Brush.Deep}" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <!--支持文本修改的按钮-->
+    <Style x:Key="Button.Text" TargetType="Button">
+        <Setter Property="Focusable" Value="False" />
+        <Setter Property="Width" Value="360"/>
+        <Setter Property="Height" Value="70" />
+        <Setter Property="Background" Value="{DynamicResource Brush.MC3}"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="Transparent">
+                        <Border x:Name="bdr" Background="{TemplateBinding Background}"  CornerRadius="4">
+                            <TextBlock x:Name="txt" FontSize="40" Text="{TemplateBinding Content}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                        </Border>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="{DynamicResource Brush.MC2}" TargetName="bdr"/>
+                            <Setter Property="FontSize" Value="45" TargetName="txt" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

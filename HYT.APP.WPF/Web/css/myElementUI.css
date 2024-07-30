@@ -1,0 +1,20 @@
+/* 消息 弹窗*/
+.el-message{
+    top: 20vh !important;
+    min-height: 80px;
+}
+.el-message__content {
+    padding: 0;
+    font-size: 18px;
+    line-height: 1;
+}
+.el-message-box__message {
+    font-size: 16px;
+}
+
+
+/* 图标 */
+.el-icon {
+    font-size: 18px;
+}
+

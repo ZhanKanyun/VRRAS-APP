@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/base.css" />
+
+    <script defer src="lib/common.js"></script>
+    <!-- Vue3 -->
+    <script defer src="lib/vue.global.js"></script>
+
+    <!-- Vue Router -->
+    <script defer src="./lib/vue-router.global.js"></script>
+    <!-- http-vue-loader -->
+    <script defer src="lib/vue3-sfc-loader.js"></script>
+
+    <!-- ElementUI Plus -->
+    <link rel="stylesheet" href="lib/element-plus/index.css" />
+    <script defer src="lib/element-plus/index.full.js"></script>
+    <script defer src="lib/element-plus/zh-cn.js"></script>
+    <!-- <script defer src="lib/element-plus/index.iife.min.js"></script>  2.0.0.6-->
+    <script defer src="./lib/index.iife.min.js"></script>
+
+    <!--Layui-vue-->
+    <link rel="stylesheet" type="text/css" href="./lib/layui-vue/index.css">
+    <script defer src="./lib/layui-vue/index.js"></script>
+
+    <!-- <script defer src="./lib/es-module-shims.js"></script> -->
+
+
+    <!-- echarts -->
+    <script defer src="./lib//echarts@5.3.3.js"></script>
+    <script defer src="./lib/vue-echarts@6.2.3.js"></script>
+
+    <!-- PDF -->
+    <!-- <script defer src="./lib/html2canvas.min.js"></script> -->
+    <!-- <script defer src="./lib/jsPdf.debug.js"></script> -->
+
+    <link rel="stylesheet" href="css/myElementUI.css">
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="config/appconfig.js"></script>
+    <script defer src="config/localdb.js"></script>
+    <script defer src="lib/iconfont.js"></script>
+    <script defer type="module" crossorigin src="index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="app" style="width:1920px;transform-origin: 0 0;">
+
+        <!-- 内容：页面显示区域 -->
+        <div class="app-content">
+            <!-- <router-view style="height:100% ;"></router-view> -->
+            <!-- vue3.0配置 -->
+            <router-view v-slot="{ Component }" style="height:100% ;" ref="currentView" v-if="isRouterAlive">
+                <keep-alive ref="keep">
+                    <component ref="keepView" :is="Component" :ref="$route.ref" :key="$route.name" v-if="$route.meta.keepAlive" />
+                </keep-alive>
+                <component :is="Component" v-if="!$route.meta.keepAlive" />
+            </router-view>
+        </div>
+
+        <!-- 导航 -->
+        <div class="app-nav flexR-center-lr" id="nav">
+            <btnav ref="navcomp" :pinfo="currentPatient" :devstate="deviceState" :admin="admin"></btnav>
+        </div>
+
+
+        <!-- 内部测试版本号 -->
+        <div id="alpha_version" class="alphaversion" v-if="appconfig.isDebug&&appconfig.alphaVersion!=''">内部版本：{{appconfig.alphaVersion}}</div>
+
+        <!-- 训练详情 -->
+        <bt-dialog-trainreport style="position:absolute;" v-if="dialog_trainreport_visible" :reportid="train_report_id"
+            @close="dialog_trainreport_Close"></bt-dialog-trainreport>
+
+        <!-- 评估详情 -->
+        <bt-dialog-assessreport style="position: absolute" v-if="dialog_assessreport_visible" :typeid="assess_report_id"
+            @close="dialog_assessreport_close"></bt-dialog-assessreport>
+
+        <!-- 评估页面 -->
+        <bt-dialog-assess ref="assessPage" v-if="dialog_assess_visible" :assessid="current_assess_id"
+            @close="dialog_assess_Close"></bt-dialog-assess>
+
+        <!-- 训练设置 -->
+        <bt-dialog-trainset style="position:absolute;" v-if="trainset_dialog_visible" :gameid="currentTrainID" @close="trainset_close"></bt-dialog-trainset>
+
+    </div>
+
+
+</body>
+
+</html>

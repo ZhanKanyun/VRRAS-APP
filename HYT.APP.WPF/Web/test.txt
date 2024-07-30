@@ -1,0 +1,101 @@
+/// <summary>
+        /// 【模式2：可以暂停】积累时间 单位毫秒
+        /// </summary>
+        public int TimeAdd { get; set; }
+
+        /// <summary>
+        /// 【模式1：不可暂停】开始记录时间
+        /// </summary>
+        public DateTime StartTime { get; set; } = DateTime.MinValue;
+
+        /// <summary>
+        /// 【模式1：不可暂停】结束记录时间
+        /// </summary>
+        public DateTime EndTime { get; set; } = DateTime.MinValue;
+
+
+        /// <summary>
+        /// 平均速度：米每秒
+        /// </summary>
+        public float Speed_Average { get; set; }
+        
+
+        /// <summary>
+        /// 总时长：单位秒
+        /// </summary>
+        public int TimeAll { get; set; }
+
+        /// <summary>
+        /// 总距离：单位厘米
+        /// </summary>
+        public int Distance { get; set; }
+
+        /// <summary>
+        /// 总步数
+        /// </summary>
+        public int StepCount { get; set; }
+
+        /// <summary>
+        /// 左脚总步数
+        /// </summary>
+        public int StepCountL { get; set; }
+
+        /// <summary>
+        /// 右脚总步数
+        /// </summary>
+        public int StepCountR { get; set; }
+
+        /// <summary>
+        /// 平均步态周期=所有的步态周期时间总和除以步数  单位秒
+        /// </summary>
+        public int T_Average { get; set; }
+
+        /// <summary>
+        /// 平均步频 ：次每分钟
+        /// </summary>
+        public int Rhythm_Average { get; set; }
+
+        /// <summary>
+        /// 平均步长 单位厘米
+        /// </summary>
+        public int StepLength_Average { get; set; }
+
+        /// <summary>
+        /// 左脚平均步长 单位厘米
+        /// </summary>
+        public int StepLengthL_Average { get; set; }
+
+        /// <summary>
+        /// 右脚平均步长 单位厘米
+        /// </summary>
+        public int StepLengthR_Average { get; set; }
+
+        /// <summary>
+        /// 平均步时 单位毫秒
+        /// </summary>
+        public int StepTime_Average { get; set; }
+
+        /// <summary>
+        /// 左脚平均步时 单位毫秒
+        /// </summary>
+        public int StepTimeL_Average { get; set; }
+
+        /// <summary>
+        /// 右脚平均步时 单位毫秒
+        /// </summary>
+        public int StepTimeR_Average { get; set; }
+
+        /// <summary>
+        /// 平均步宽 单位厘米
+        /// </summary>
+        public int StepWidth_Average { get; set; }
+
+        /// <summary>
+        /// 平均对称性=(右脚的总步时/右脚步数)/(左脚的总步时/左脚步数)
+        /// </summary>
+        public int Symm_Average { get; set; }
+
+        /// <summary>
+        /// 上一个步态周期的对称性
+        /// </summary>
+        public int Symm_LastOne { get; set; }

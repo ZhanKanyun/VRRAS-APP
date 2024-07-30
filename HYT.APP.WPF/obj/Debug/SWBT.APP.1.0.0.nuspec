@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SWBT.APP</id>
+    <version>1.0.0</version>
+    <authors>SWBT.APP</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="CL.Common" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="HYT.DataAccess" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="HYT.MidiManager" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="HYT.Unity" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Web.WebView2" version="1.0.1587.40" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="System.IO.Ports" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/app.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="I:\GitRepository\NET\2302-HaiYaTe\bin\Debug\net6.0-windows\SWBT.APP.runtimeconfig.json" target="lib\net6.0-windows7.0\SWBT.APP.runtimeconfig.json" />
+    <file src="I:\GitRepository\NET\2302-HaiYaTe\bin\Debug\net6.0-windows\SWBT.APP.dll" target="lib\net6.0-windows7.0\SWBT.APP.dll" />
+    <file src="I:\GitRepository\NET\2302-HaiYaTe\HYT.APP.WPF\app.ico" target="content\app.ico" />
+    <file src="I:\GitRepository\NET\2302-HaiYaTe\HYT.APP.WPF\app.ico" target="contentFiles\any\net6.0-windows7.0\app.ico" />
+  </files>
+</package>

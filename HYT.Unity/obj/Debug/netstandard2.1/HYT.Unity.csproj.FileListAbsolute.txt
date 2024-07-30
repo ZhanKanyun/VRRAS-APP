@@ -1,0 +1,11 @@
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Unity\bin\Debug\netstandard2.1\HPSocket4C.dll
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Unity\bin\Debug\netstandard2.1\HYT.Unity.deps.json
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Unity\bin\Debug\netstandard2.1\HYT.Unity.dll
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Unity\bin\Debug\netstandard2.1\HYT.Unity.pdb
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Unity\obj\Debug\netstandard2.1\HYT.Unity.csproj.AssemblyReference.cache
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Unity\obj\Debug\netstandard2.1\HYT.Unity.GeneratedMSBuildEditorConfig.editorconfig
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Unity\obj\Debug\netstandard2.1\HYT.Unity.AssemblyInfoInputs.cache
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Unity\obj\Debug\netstandard2.1\HYT.Unity.AssemblyInfo.cs
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Unity\obj\Debug\netstandard2.1\HYT.Unity.csproj.CoreCompileInputs.cache
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Unity\obj\Debug\netstandard2.1\HYT.Unity.dll
+I:\GitRepository\NET\2302-HaiYaTe\HYT.Unity\obj\Debug\netstandard2.1\HYT.Unity.pdb

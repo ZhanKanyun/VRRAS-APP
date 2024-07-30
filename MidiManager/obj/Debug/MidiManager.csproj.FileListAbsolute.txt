@@ -1,0 +1,11 @@
+I:\GitRepository\NET\2302-HaiYaTe\MidiManager\bin\Debug\MidiManager.dll
+I:\GitRepository\NET\2302-HaiYaTe\MidiManager\bin\Debug\MidiManager.pdb
+I:\GitRepository\NET\2302-HaiYaTe\MidiManager\bin\Debug\Sanford.Collections.dll
+I:\GitRepository\NET\2302-HaiYaTe\MidiManager\bin\Debug\Sanford.Multimedia.dll
+I:\GitRepository\NET\2302-HaiYaTe\MidiManager\bin\Debug\Sanford.Multimedia.Timers.dll
+I:\GitRepository\NET\2302-HaiYaTe\MidiManager\bin\Debug\Sanford.Threading.dll
+I:\GitRepository\NET\2302-HaiYaTe\MidiManager\obj\Debug\MidiManager.csproj.AssemblyReference.cache
+I:\GitRepository\NET\2302-HaiYaTe\MidiManager\obj\Debug\MidiManager.csproj.CoreCompileInputs.cache
+I:\GitRepository\NET\2302-HaiYaTe\MidiManager\obj\Debug\MidiManager.csproj.CopyComplete
+I:\GitRepository\NET\2302-HaiYaTe\MidiManager\obj\Debug\MidiManager.dll
+I:\GitRepository\NET\2302-HaiYaTe\MidiManager\obj\Debug\MidiManager.pdb

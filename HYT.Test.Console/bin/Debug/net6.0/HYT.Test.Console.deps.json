@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HYT.Test.Console/1.0.0": {
+        "runtime": {
+          "HYT.Test.Console.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HYT.Test.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

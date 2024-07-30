@@ -1,0 +1,13 @@
+I:\GitRepository\NET\2302-HaiYaTe\CL.Common\bin\x64\Release\net6.0\Content\nlog.config
+I:\GitRepository\NET\2302-HaiYaTe\CL.Common\bin\x64\Release\net6.0\CL.Common.deps.json
+I:\GitRepository\NET\2302-HaiYaTe\CL.Common\bin\x64\Release\net6.0\CL.Common.dll
+I:\GitRepository\NET\2302-HaiYaTe\CL.Common\bin\x64\Release\net6.0\CL.Common.pdb
+I:\GitRepository\NET\2302-HaiYaTe\CL.Common\obj\x64\Release\net6.0\CL.Common.csproj.AssemblyReference.cache
+I:\GitRepository\NET\2302-HaiYaTe\CL.Common\obj\x64\Release\net6.0\CL.Common.GeneratedMSBuildEditorConfig.editorconfig
+I:\GitRepository\NET\2302-HaiYaTe\CL.Common\obj\x64\Release\net6.0\CL.Common.AssemblyInfoInputs.cache
+I:\GitRepository\NET\2302-HaiYaTe\CL.Common\obj\x64\Release\net6.0\CL.Common.AssemblyInfo.cs
+I:\GitRepository\NET\2302-HaiYaTe\CL.Common\obj\x64\Release\net6.0\CL.Common.csproj.CoreCompileInputs.cache
+I:\GitRepository\NET\2302-HaiYaTe\CL.Common\obj\x64\Release\net6.0\CL.Common.dll
+I:\GitRepository\NET\2302-HaiYaTe\CL.Common\obj\x64\Release\net6.0\refint\CL.Common.dll
+I:\GitRepository\NET\2302-HaiYaTe\CL.Common\obj\x64\Release\net6.0\CL.Common.pdb
+I:\GitRepository\NET\2302-HaiYaTe\CL.Common\obj\x64\Release\net6.0\ref\CL.Common.dll

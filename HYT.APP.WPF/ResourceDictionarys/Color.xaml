@@ -1,0 +1,46 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:HYT.APP.WPF">
+    <Color x:Key="Color.Red" >#9E212D</Color>
+    <Color x:Key="Color.Blue">#0080FF</Color>
+    <Color x:Key="Color.Gray" >#CCCCCC</Color>
+    <Color x:Key="Color.MC1">#113661</Color>
+    <Color x:Key="Color.MC2">#1B5292</Color>
+    <Color x:Key="Color.MC3">#3A97DB</Color>
+    <Color x:Key="Color.MC4">#67C0FF</Color>
+    <Color x:Key="Color.MC5">#90B9D5</Color>
+    <Color x:Key="Color.SC1">#5DCA7F</Color>
+    <Color x:Key="Color.SC1F">#96F9C0</Color>
+    <Color x:Key="Color.SC2">#A2E1B6</Color>
+    <Color x:Key="Color.TC1">#FB7C40</Color>
+    <Color x:Key="Color.MG0">#D4E1E8</Color>
+    <Color x:Key="Color.MG1">#E3F1FB</Color>
+    <Color x:Key="Color.MG2">#F5FBFF</Color>
+
+    <SolidColorBrush x:Key="App.Brush.Button.Background" Color="{DynamicResource Color.MC4}" />
+    <SolidColorBrush x:Key="App.Brush.Button.Border" Color="{DynamicResource Color.MC3}" />
+    <SolidColorBrush x:Key="App.Brush.Button.SelectedBackground" Color="{DynamicResource Color.MC3}" />
+    <SolidColorBrush x:Key="App.Brush.Button.SelectedBorder" Color="{DynamicResource Color.MC2}" />
+
+    <SolidColorBrush x:Key="App.Brush.Base" Color="{DynamicResource Color.MC3}" />
+    <SolidColorBrush x:Key="App.Brush.Light" Color="{DynamicResource Color.MC4}" />
+    <SolidColorBrush x:Key="App.Brush.Deep" Color="{DynamicResource Color.MC2}" />
+    <SolidColorBrush x:Key="App.Brush.MG1" Color="{DynamicResource Color.MG1}" />
+    <SolidColorBrush x:Key="Brush.Red" Color="{DynamicResource Color.Red}" />
+    <SolidColorBrush x:Key="Brush.Blue" Color="{DynamicResource Color.Blue}" />
+    <SolidColorBrush x:Key="Brush.Gray" Color="{DynamicResource Color.Gray}" />
+
+
+    <SolidColorBrush x:Key="Brush.MC1" Color="{StaticResource Color.MC1}" />
+    <SolidColorBrush x:Key="Brush.MC2" Color="{StaticResource Color.MC2}" />
+    <SolidColorBrush x:Key="Brush.MC3" Color="{StaticResource Color.MC3}" />
+    <SolidColorBrush x:Key="Brush.MC4" Color="{StaticResource Color.MC4}" />
+    <SolidColorBrush x:Key="Brush.MC5" Color="{StaticResource Color.MC5}" />
+    <SolidColorBrush x:Key="Brush.SC1" Color="{StaticResource Color.SC1}" />
+    <SolidColorBrush x:Key="Brush.SC1F" Color="{StaticResource Color.SC1F}" />
+    <SolidColorBrush x:Key="Brush.SC2" Color="{StaticResource Color.SC2}" />
+    <SolidColorBrush x:Key="Brush.TC1" Color="{StaticResource Color.TC1}" />
+    <SolidColorBrush x:Key="Brush.MG0" Color="{StaticResource Color.MG0}" />
+    <SolidColorBrush x:Key="Brush.MG1" Color="{StaticResource Color.MG1}" />
+    <SolidColorBrush x:Key="Brush.MG2" Color="{StaticResource Color.MG2}" />
+</ResourceDictionary>
