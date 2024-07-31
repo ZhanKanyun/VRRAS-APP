@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = KT.TCP
-build_property.ProjectDir = I:\GitRepository\NET\2302-HaiYaTe\HYT.Unity\
+build_property.ProjectDir = C:\D\HYACT-工作记录\项目\Git_repository\VRRAS-APP\HYT.Unity\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\KT\\.nuget\\packages\\": {},
-    "D:\\03.develop\\Visual Studio\\2022\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Kanyun\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.Test.Console\\HYT.Test.Console.csproj",
+      "projectUniqueName": "C:\\D\\HYACT-工作记录\\项目\\Git_repository\\VRRAS-APP\\HYT.Test.Console\\HYT.Test.Console.csproj",
       "projectName": "HYT.Test.Console",
-      "projectPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.Test.Console\\HYT.Test.Console.csproj",
-      "packagesPath": "C:\\Users\\KT\\.nuget\\packages\\",
-      "outputPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.Test.Console\\obj\\",
+      "projectPath": "C:\\D\\HYACT-工作记录\\项目\\Git_repository\\VRRAS-APP\\HYT.Test.Console\\HYT.Test.Console.csproj",
+      "packagesPath": "C:\\Users\\Kanyun\\.nuget\\packages\\",
+      "outputPath": "C:\\D\\HYACT-工作记录\\项目\\Git_repository\\VRRAS-APP\\HYT.Test.Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\03.develop\\Visual Studio\\2022\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\KT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kanyun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,7 +33,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -46,6 +45,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -62,12 +66,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.32, 6.0.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.32, 6.0.32]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.32, 6.0.32]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.32, 6.0.32]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6SzvgCKWg9XxA3tAnDcn0UJP240ADlik6Y/axWV3a0tkrW5QdlR5SWqwXbhs9hl1B2jC6UQldVcUkrYm3INS6w==",
+  "dgSpecHash": "TsFb0+p5J/s=",
   "success": true,
-  "projectFilePath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\CL.Common\\CL.Common.csproj",
+  "projectFilePath": "C:\\D\\HYACT-工作记录\\项目\\Git_repository\\VRRAS-APP\\CL.Common\\CL.Common.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\KT\\.nuget\\packages\\nlog\\5.1.2\\nlog.5.1.2.nupkg.sha512"
+    "C:\\Users\\Kanyun\\.nuget\\packages\\nlog\\5.1.2\\nlog.5.1.2.nupkg.sha512",
+    "C:\\Users\\Kanyun\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.32\\microsoft.netcore.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\Kanyun\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.32\\microsoft.windowsdesktop.app.ref.6.0.32.nupkg.sha512",
+    "C:\\Users\\Kanyun\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.32\\microsoft.aspnetcore.app.ref.6.0.32.nupkg.sha512"
   ],
   "logs": []
 }

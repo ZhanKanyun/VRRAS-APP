@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HYT.Test.WPF
-build_property.ProjectDir = I:\GitRepository\NET\2302-HaiYaTe\HYT.Test.WPF\
+build_property.ProjectDir = C:\D\HYACT-工作记录\项目\Git_repository\VRRAS-APP\HYT.Test.WPF\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

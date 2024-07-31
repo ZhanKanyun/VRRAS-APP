@@ -199,23 +199,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KT\\.nuget\\packages\\": {},
-    "D:\\03.develop\\Visual Studio\\2022\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Kanyun\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.Unity\\HYT.Unity.csproj",
+      "projectUniqueName": "C:\\D\\HYACT-工作记录\\项目\\Git_repository\\VRRAS-APP\\HYT.Unity\\HYT.Unity.csproj",
       "projectName": "HYT.Unity",
-      "projectPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.Unity\\HYT.Unity.csproj",
-      "packagesPath": "C:\\Users\\KT\\.nuget\\packages\\",
-      "outputPath": "I:\\GitRepository\\NET\\2302-HaiYaTe\\HYT.Unity\\obj\\",
+      "projectPath": "C:\\D\\HYACT-工作记录\\项目\\Git_repository\\VRRAS-APP\\HYT.Unity\\HYT.Unity.csproj",
+      "packagesPath": "C:\\Users\\Kanyun\\.nuget\\packages\\",
+      "outputPath": "C:\\D\\HYACT-工作记录\\项目\\Git_repository\\VRRAS-APP\\HYT.Unity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\03.develop\\Visual Studio\\2022\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\KT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kanyun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -224,7 +224,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -237,6 +236,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -268,7 +272,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
